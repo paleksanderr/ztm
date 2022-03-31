@@ -1,0 +1,56 @@
+
+body,
+html {
+  background: url(https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  
+}
+
+h1 {
+font-family: "Qwitcher Grypen", sans-serif;
+color: #7eb99b;
+font-size: 4rem;
+font-weight: 400;
+text-align: center;
+margin-top: 10rem;
+text-transform: capitalize;
+}
+
+hr {
+    margin: 20px auto;
+    color: #2b4939;
+    border: 1px solid #2b4939;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.btn-me {
+  
+  background: #2b4939;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  box-shadow: 3px 3px 3px 3px #221616;
+  padding: 0.75rem 3rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 300px;
+  cursor: progress;
+  transition: all 0.3s ease-in-out;
+  margin-top: 2rem;
+}
+
+.btn-me:hover {
+  background: #64ac86;
+  transform: scale(1.1);
+}
+
+.buffer {
+  height: 5rem;
+}
